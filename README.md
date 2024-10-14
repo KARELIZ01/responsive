@@ -15,11 +15,12 @@ View the live site: https://github.com/KARELIZ01/responsive.git
 ## Screenshots
 
 ### Desktop View
-[Desktop screenshot]
 
+![Captura desde 2024-10-14 13-41-36](https://github.com/user-attachments/assets/76358bc9-d976-4ec6-96bd-9c7b57541e5c)
 
 ### Mobile View
-[Mobile screenshot]
+
+![tempFileForShare_20241014-134425](https://github.com/user-attachments/assets/e16fd64e-bdde-4df2-b815-1d598cdb3f6d)
 
 ## Technologies Used
 
