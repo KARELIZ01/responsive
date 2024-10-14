@@ -1,5 +1,3 @@
-Here's a README for your GitHub page based on the provided requirements:
-
 # Responsive Frontend Project
 
 This project showcases a responsive website built using HTML5 and CSS3.
