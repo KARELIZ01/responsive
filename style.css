@@ -1,0 +1,42 @@
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .images img {
+        height: 350px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .images img:hover {
+        transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+        .images img {
+            height: 250px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .images img {
+            height: 200px;
+            width: 100%;
+        }
+    }

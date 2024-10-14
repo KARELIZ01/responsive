@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .images img {
+        height: 350px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .images img:hover {
+        transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+        .images img {
+            height: 250px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .images img {
+            height: 200px;
+            width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="images">
+        <img src="imagenesResponsive/image1.jpg" alt="chica trabajando en una placa base de ordenador con un destornillador">
+        <img src="imagenesResponsive/image2.jpg" alt="mujer de espalda con una gabardina color beige y un paraguas negro,caminando  por una calle de lo que parece New Yor">
+        <img src="imagenesResponsive/image3.jpg" alt="una mujer de espaldas con una chaqueta azul y un pantalon negro, de pie sobre un puente y mirando una enorme cascada de agua">
+        <img src="imagenesResponsive/image4.jpg" alt="cielo azul con fuegos artifiacles de color narana, verde, azul y rosa, se ve en primer plano una persona con un sombrero blanco">
+        <img src="imagenesResponsive/image5.jpg" alt="chica rubia sonriendo y un perrito blanco asomados por la venana de una minivan blanca">
+        <img src="imagenesResponsive/image6.jpg" alt="los bordes de un techo y una cupula de color verde con una cruz en lo mas alto">
+        <img src="imagenesResponsive/image7.jpg" alt="un niño en su cama arropado mirando las figuras de unos hombres que le miren y parecen gritarle">
+        <img src="imagenesResponsive/image8.jpg" alt="imagen en blanco y negro, un hombre con una chaqueta negra con la bandera de Estados Unidos en su brazo derecho y rodeado en el suelo por distintos objetos zapatos y bolso">
+    </div>
+</body>
+</html>
