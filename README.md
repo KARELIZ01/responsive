@@ -10,15 +10,13 @@ This project showcases a responsive website built using HTML5 and CSS3.
 
 ## Live Demo
 
-View the live site: [GitHub Pages Link]
+View the live site: https://github.com/KARELIZ01/responsive.git
 
 ## Screenshots
 
 ### Desktop View
 [Desktop screenshot]
 
-### Tablet View
-[Tablet screenshot]
 
 ### Mobile View
 [Mobile screenshot]
